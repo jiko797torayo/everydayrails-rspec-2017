@@ -241,6 +241,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.8)
       rack (>= 2.0.6)
+    warning (1.0.0)
     web-console (4.0.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -281,6 +282,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier
+  warning
   web-console
 
 BUNDLED WITH

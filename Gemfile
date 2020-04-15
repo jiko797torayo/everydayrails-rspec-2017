@@ -13,6 +13,7 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'warning'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
