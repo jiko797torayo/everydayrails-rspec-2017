@@ -20,4 +20,9 @@ RSpec.feature "Projects", type: :feature do
       expect(page).to have_content "Owner: #{user.name}"
     }.to change(user.projects, :count).by(1)
   end
+
+  scenario "guest adds a project" do
+    visit projects_path
+    click_link "New Project"
+  end
 end
